@@ -1,0 +1,35 @@
+{
+  "name": "lightning-table",
+  "version": "0.0.0",
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "fixed-data-table": "^0.6.0",
+    "lightning-client-utils": "^0.6.3",
+    "lightning-visualization": "^0.1.0",
+    "lodash": "^3.8.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -w -d lib"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "lightning": {
+    "name": "lightning-table"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-react": "^6.3.13"
+  }
+}
